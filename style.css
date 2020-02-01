@@ -1,17 +1,54 @@
+.menu-container{
+    background-color: aqua;
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    height: 50px;
+    padding: 20px 20px;
+    position: fixed;
+    width: 100%;
+    
+}
 .menu-nav {
-    background-color: bisque;
+    
+    background-color: aqua;
+    
+    padding-left: 15%;
     
 }     
 .menu-nav ul{
     display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;  
     margin:0px;
-    list-style: none;    
-    justify-content: center;
-    align-items: center;
-    height: 40px;
+    list-style: none;      
+    padding-left: 0px;  
+    
+    
+    
     
 }
+.menu-nav ul>li{
+    flex-grow: 1;
+}
 .menu-nav a{
+    display: flex;
     padding: 15px;
-    color:#525453
+    color:black;
+    text-decoration: none;
+  
+}
+.menu-nav a:hover{
+    color: red;
+}
+
+.logo{
+    /*display: flex;*/
+    
+}
+.logo img{
+    
+    max-height: 100%;
+    width: 40%;
+    
 }
