@@ -42,13 +42,26 @@
     color: red;
 }
 
-.logo{
-    /*display: flex;*/
-    
-}
 .logo img{
     
     max-height: 100%;
     width: 40%;
     
+    color:#525453
+}
+
+.container-base{
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    align-items: center;
+    background-image: url(stranget-things.png);
+    height: 500px;
+    padding: 20px 20px;
+    color: #FFF;
+}
+
+.container-base>img{
+    max-height: 100%;
+    max-width: 100%;
 }
