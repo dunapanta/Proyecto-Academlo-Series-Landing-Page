@@ -1,3 +1,7 @@
+body{
+    padding: 0;
+    background-color: aqua;
+}
 .menu-container{
     background-color: aqua;
     display: flex;
@@ -5,15 +9,15 @@
     display: -ms-flexbox;
     height: 50px;
     padding: 20px 20px;
-    position: fixed;
+    position: scroll;
     width: 100%;
     
 }
 .menu-nav {
     
-    background-color: aqua;
-    
-    padding-left: 15%;
+    background-color: aqua;        
+    justify-content: center;
+    align-items: center;
     
 }     
 .menu-nav ul{
@@ -49,42 +53,41 @@
     width: 40%;
     
 }
-.contenedor-principal{
+.contenedor-principal {
     display: flex;
     display: -webkit-flex;
     display: -ms-flexbox; 
-    width: 100%;
-    height: 500px;
-    background-color: rgb(43, 214, 226);        
-    /*position: relative;   */    
-    text-align: center;
+    margin: auto;
+    width: 800px; 
+    height: auto;       
+    background-color:aqua;          
+    flex-wrap: wrap;
     padding: 30px 30px;  
-    /*justify-content: flex-end;*/
-    align-items: center;
+    justify-content: space-between;  
     
-    padding: 20px;
-	border: 10px solid #ccc;
-	-webkit-box-sizing: padding-box;
-	-moz-box-sizing: padding-box;
-	box-sizing: padding-box;
-	margin: 0 auto;
+   
 }   
 
-/*.contenedor-principal .Series{
+.contenedor-principal .item{
     display: flex;
     display: -webkit-flex;
-    display: -ms-flexbox;     
-    padding: 30px 30px;  
-    border: 1px solid green;   
-}*/
-/*.contenedor-principal .Peliculas{
+    display: -ms-flexbox;         
+    border: 1px solid green;  
+    color: rgb(63, 206, 134);
+    flex: none; 
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    width: calc((100% - 20px) / 3);
+    height: 300px;
+}
+.item .img{
     display: flex;
-    display: -webkit-flex;
-    display: -ms-flexbox;     
-    padding: 30px 30px;  
-    border: 1px solid green;   
-    text-align: center;
-}*/
-/*.contenedor-principal .Series,.Peliculas{
-    width: (33.3%);
-}*/
+    width: 100%;
+    height: 300px;
+}
+.item .img1{
+    display: flex;
+    width: 260px;
+    height: 300px;
+}
