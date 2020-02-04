@@ -17,7 +17,6 @@
 }
 
 .container-base{
-    
     display: flex;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -26,11 +25,16 @@
     background-image: url(stranget-things.png);
     background-size: cover;
     box-shadow: 0px 2px 15px 7px grey;
-    display: inline-block;
+    /* display: inline-block; */
     align-items: center;
     padding: 20px 10px;
     margin: 20px;
     color: #FFF;
+}
+
+.informacion-serie{
+    width: 70%;
+    
 }
 
 .imagenes-serie{
@@ -39,13 +43,72 @@
     display: -ms-flexbox;
     display: inline-block;
     box-shadow: 0px 0px 10px 6px rgb(66, 62, 62);
-    height: 450px;
-    width: 400px;
+    height: 518px;
+    width: 265px;
+   /*  justify-content: center;
+    align-items: center; */
+}
+.imagenes-serie .imagen-serie-principal img:hover{
+    box-shadow: 0px 0px 8px 6px rgb(129, 125, 125);
+    
+}
+.imagenes-serie .actores-series:hover{
+    box-shadow: 0px 0px 8px 6px rgb(129, 125, 125);
+    
 }
 
 .imagenes-serie img{
     max-width: 100%;
-    max-height: 100%;
-    margin: 5px;
+    max-height: 100%;  
 }
 
+.imagenes-serie .foto-actor img{
+    width: 100px;
+    height: 100px;  
+}
+.actores-series {
+   display: flex;
+   justify-content: center;
+}
+
+.actores-series img{
+    padding-top: 8px;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.actores-series .descripcion-actor {
+    margin-left: 5px;
+ }
+
+ .redes-sociales i{
+    border-radius: 800px;
+    padding: 7px;
+    border: solid 1px #FFF;
+    font-size: 20px;
+    color: #FFF;
+    margin: 0px 5px;
+}
+
+.descripcion-actor h4{
+    margin: 10px 0px;
+
+}
+.redes-sociales .fa-twitter:hover{
+    background-color:#FFF;
+    color: #00acee;
+}
+
+.redes-sociales .fa-facebook-f:hover{
+    background-color:#FFF;
+    color:#3b5998
+}
+
+.redes-sociales .fa-instagram:hover{
+    background-color:#FFF;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+/* .redes-sociales .fa-facebook-f{
+    padding-left: 4px;
+    padding-right: 4px;
+} */
