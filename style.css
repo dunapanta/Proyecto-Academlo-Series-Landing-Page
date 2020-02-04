@@ -32,6 +32,86 @@
     color: #FFF;
 }
 
+.container-base-trainspotting{
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    width: 1000px;
+    height: 500px;
+    background-image: url(trainspotting-background.jpg);
+    background-size: cover;
+    box-shadow: 0px 2px 15px 7px grey;
+    /* display: inline-block; */
+    align-items: center;
+    padding: 20px 10px;
+    margin: 20px;
+    color: #FFF;
+}
+
+.container-base-mr-robot{
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    width: 1000px;
+    height: 500px;
+    background-image: url(mr-robot-background.png);
+    background-size: cover;
+    box-shadow: 0px 2px 15px 7px grey;
+    /* display: inline-block; */
+    align-items: center;
+    padding: 20px 10px;
+    margin: 20px;
+    color: #FFF;
+}
+
+.container-base-mad-max{
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    width: 1000px;
+    height: 500px;
+    background-image: url(mad-max-background.png);
+    background-size: cover;
+    box-shadow: 0px 2px 15px 7px grey;
+    /* display: inline-block; */
+    align-items: center;
+    padding: 20px 10px;
+    margin: 20px;
+    color: #FFF;
+}
+
+.container-base-sons{
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    width: 1000px;
+    height: 500px;
+    background-image: url(sons-background.png);
+    background-size: cover;
+    box-shadow: 0px 2px 15px 7px grey;
+    /* display: inline-block; */
+    align-items: center;
+    padding: 20px 10px;
+    margin: 20px;
+    color: #FFF;
+}
+
+.container-base-jumper{
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    width: 1000px;
+    height: 500px;
+    background-image: url(jumper-background.png);
+    background-size: cover;
+    box-shadow: 0px 2px 15px 7px grey;
+    /* display: inline-block; */
+    align-items: center;
+    padding: 20px 10px;
+    margin: 20px;
+    color: #000;
+}
+
 .informacion-serie{
     width: 70%;
     
@@ -59,7 +139,7 @@
 
 .imagenes-serie img{
     max-width: 100%;
-    max-height: 100%;  
+    max-height: 100%;
 }
 
 .imagenes-serie .foto-actor img{
