@@ -369,3 +369,41 @@ iframe{
     z-index: 2;
     top: 0px;
 }
+
+.footer-logo{
+    display: flex;
+    z-index: 3;
+}
+
+.movie-logo img{
+ height: 120px;
+ width: 120px;
+}
+
+.footer-logo .titulo-footer{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+
+.footer-logo .subtitulo-footer{
+    font-size: 25px;
+    margin-top: 8px;
+    color: black;
+    text-align: center;
+}
+
+.footer-redes-sociales{
+    border-radius: 800px;
+    padding: 7px;
+    border: solid 1px #FFF;
+    font-size: 20px;
+    color: #FFF;
+    margin: 0px 5px;
+}
+
+.footer-copyrght{
+    font-size: 18px;
+    font-weight: lighter;
+    z-index: 4;
+}
