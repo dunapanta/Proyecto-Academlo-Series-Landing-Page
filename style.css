@@ -229,6 +229,127 @@ body{
     
 }
 
+
+/* Rating */
+
+.puntuacion-iconos-trainspotting{
+    margin-top: 100px;
+    display: inline-flex;
+    width: 80%;
+    height: 68px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.puntuacion-iconos-madmax{
+    margin-top: 50px;
+    display: inline-flex;
+    width: 80%;
+    height: 68px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.puntuacion-iconos-jumper{
+    margin-top: 30px;
+    display: inline-flex;
+    width: 80%;
+    height: 68px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.puntuacion-iconos-sons{
+    margin-top: 50px;
+    display: inline-flex;
+    width: 80%;
+    height: 68px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.puntuacion-iconos-mrrobot{
+    margin-top: 100px;
+    display: inline-flex;
+    width: 80%;
+    height: 68px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.puntuacion-iconos-stranger{
+    margin-top: 100px;
+    display: inline-flex;
+    width: 80%;
+    height: 68px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.informacion-serie ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.iconos-interactuar .fa-star{
+padding: 0px 15px;
+color: rgb(241, 241, 7);
+}
+
+
+.iconos-interactuar .fa-star:hover{
+    color: rgb(241, 203, 65);
+}
+
+.iconos-interactuar .fa-wikipedia-w:hover{
+    background-color: #FFF;
+    color:rgb(0, 0, 0);
+}
+
+.iconos-interactuar .fa-imdb:hover{
+    background-color: #FFF;
+    color:#F5C518;
+}
+
+.iconos-interactuar .fa-facebook-f:hover{
+    background-color: #FFF;
+    color: #3b5998;
+}
+
+.iconos-interactuar .fa-facebook-f:hover{
+    background-color: #FFF;
+    color: #3b5998;
+}
+
+.iconos-interactuar .fa-tv:hover{
+    background-color: #FFF;
+    color: #2f3033;
+}
+
+.puntuacion-trainspotting{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 80px;
+    align-items: center;
+}
+
+.iconos-interactuar .fa-wikipedia-w, .fa-imdb, .fa-facebook-f, .fa-tv{
+
+    border-radius: 100px;
+    padding: 12px;
+    border: solid 1px #FFF;
+    font-size: 25px;
+    color: #FFF;
+    margin: 0px 5px;
+}
+
 .imagenes-serie{
     display: flex;
     display: -webkit-box;
