@@ -560,3 +560,123 @@ iframe{
     background-color: #FFF;
     color:#F5C518;
 }
+
+.novedades{
+    display: flex;
+    justify-content: center;
+}
+.novedades-tv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.novedades-tv-principal{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 281px;
+    width: 500px;
+    flex-direction: column;
+    background-image: url(img/mr-robot-background.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.novedades-tv-secundario{
+    display: flex;
+}
+
+.novedades-tv-secundario-izquierda{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 141px;
+    width: 250px;
+    flex-direction: column;
+    background-image: url(img/stranget-things.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.novedades-tv-secundario-derecha{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 141px;
+    width: 250px;
+    flex-direction: column;
+    background-image: url(img/sons-background.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.novedades-pelicula{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.novedades-pelicula-secundario{
+    display: flex;
+}
+
+.novedades-pelicula-secundario-izquierda{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 141px;
+    width: 250px;
+    flex-direction: column;
+    background-image: url(img/mad-max-background.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.novedades-pelicula-secundario-derecha{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 141px;
+    width: 250px;
+    flex-direction: column;
+    background-image: url(img/jumper-background.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.novedades-pelicula-principal{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 281px;
+    width: 500px;
+    flex-direction: column;
+    background-image: url(img/trainspotting-background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
