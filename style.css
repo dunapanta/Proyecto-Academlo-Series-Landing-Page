@@ -13,9 +13,13 @@ body{
     display: -webkit-flex;
     display: -ms-flexbox;
     height: 30px;    
-    background-color: #00000085;
+    background-color: rgb(46, 41, 41);
     /*padding: 25px;*/
     border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    
+    
     
     
       
@@ -23,14 +27,14 @@ body{
 }
 .logo {
     display: flex;
-    height: 25px;
+    height: 35px;
     width: 40%;
     font: small-caps 100%/200% serif;
     color: white;
     padding: 0px;
     font-size: 8px;
-    padding-left: 15px;
-    justify-content: center;
+    padding-right: 250px;
+    justify-content: flex-start;
     
 
     
@@ -39,10 +43,10 @@ body{
 .menu-nav {
     
     
-    background:rgba(0,0,0,.1);
+    background:rgba(46, 41, 41.1);
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
+    position: fixed;
     
 }     
 .menu-nav ul{
@@ -63,7 +67,8 @@ body{
 }
 .menu-nav a:hover{
     background-color: #00000085;
-    color: rgb(63, 206, 134);
+    color: rgb(18, 162, 214);
+    transition: all 0.5s cubic-bezier(.46,.08,.29,.86) 0s;
     
     
 }
@@ -92,6 +97,7 @@ body{
     padding: 30px 30px;  
     justify-content: space-between;  
     
+    
    
 }   
 
@@ -111,6 +117,8 @@ body{
 
 .contenedor-principal .item:hover {
     box-shadow: 0px 0px 10px 6px rgb(24, 124, 160);
+    transition: all 0.4s cubic-bezier(.46,.08,.29,.86) 0s;
+    cursor: text;
 }
 .item .img{
     display: flex;
@@ -118,6 +126,7 @@ body{
     height: 300px;
 }
 .item .img1{
+    margin-left: 10px;
     display: flex;
     width: 260px;
     height: 300px;
@@ -288,8 +297,9 @@ body{
     width: 80%;
     height: 68px;
     /* display: flex; */
-    align-items: center;
+    align-items:center;
     justify-content: flex-start;
+    
 }
 
 .informacion-serie ul{
