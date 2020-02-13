@@ -574,7 +574,7 @@ iframe{
 .novedades{
     display: flex;
     justify-content: center;
-
+    margin-top: 50px;
 }
 
 
@@ -731,4 +731,39 @@ iframe{
     display: block;
     font-size: 10px;
     color: white;
+}
+
+.novedades-tv .novedades-tv-principal:hover{
+    box-shadow: 0px 0px 10px 6px rgb(24, 124, 160);
+    transition: all 0.4s cubic-bezier(.46,.08,.29,.86) 0s;
+}
+
+.novedades-tv .novedades-tv-secundario-izquierda:hover{
+    box-shadow: 0px 0px 10px 6px rgb(24, 124, 160);
+    transition: all 0.4s cubic-bezier(.46,.08,.29,.86) 0s;
+    
+}
+
+.novedades-tv .novedades-tv-secundario-derecha:hover{
+    box-shadow: 0px 0px 10px 6px rgb(24, 124, 160);
+    transition: all 0.4s cubic-bezier(.46,.08,.29,.86) 0s;
+    
+}
+
+.novedades-pelicula .novedades-pelicula-secundario-izquierda:hover{
+    box-shadow: 0px 0px 10px 6px rgb(24, 124, 160);
+    transition: all 0.4s cubic-bezier(.46,.08,.29,.86) 0s;
+    
+}
+
+.novedades-pelicula .novedades-pelicula-secundario-derecha:hover{
+    box-shadow: 0px 0px 10px 6px rgb(24, 124, 160);
+    transition: all 0.4s cubic-bezier(.46,.08,.29,.86) 0s;
+    
+}
+
+.novedades-pelicula .novedades-pelicula-principal:hover{
+    box-shadow: 0px 0px 10px 6px rgb(24, 124, 160);
+    transition: all 0.4s cubic-bezier(.46,.08,.29,.86) 0s;
+    
 }
