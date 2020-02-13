@@ -626,7 +626,12 @@ iframe{
     background-size: cover;
     z-index: 1; */
 }
+.novedades-tv-secundario p{
 
+    color: rgb(245, 245, 245);
+    font-size: 27px;
+    font-weight: bold;
+}
 .novedades-tv-secundario-derecha{
     position: relative;
     display: flex;
